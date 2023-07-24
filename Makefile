@@ -13,3 +13,7 @@ install:
 	chmod +x call-openai
 	sudo ln -sf "$(shell pwd)/call-openai" /usr/local/bin/call-openai
 
+
+ifneq (,$(wildcard Makefile.gather))
+include Makefile.gather
+endif
