@@ -6,10 +6,10 @@ from call_openai import call_openai_api_function
 
 def main(json_input=None):
     """
-    Call an OpenAI API function based on JSON input.
+    Call an OpenAI API class method as defined in the python [library](https://github.com/openai/openai-python).
 
     The JSON input must contain the following keys:
-        - function_name: A string representing the name of the OpenAI API function to call.
+        - function_name: A string representing the name of the OpenAI API library method to call.
         - arguments: An object containing the key-value pairs for the arguments required by the function.
 
     The JSON input can be provided as a command-line argument or via stdin.
