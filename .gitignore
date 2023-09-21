@@ -1,1 +1,15 @@
+__pycache__
+
+# begin mkdocs.gitignore
+docs_src
+site
+Makefile.local
+docs/repos
+UPDATES.md
+venv
+.DS_Store
+remote-src
+mkdocs-docs
+# end mkdocs.gitignore
+
 docs-list
